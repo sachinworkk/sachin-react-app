@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>CI/CD Assignment for ECS with circleci</p>
+        <p>CI/CD Assignment for ECS with circleci completed.</p>
         <p>Sachin Khadka</p>
         <a
           className="App-link"
