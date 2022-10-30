@@ -21,7 +21,7 @@ jobs:
             docker build -t public.ecr.aws/o2e6u6n6/sachin-khadka-ecr:success .
             docker push public.ecr.aws/o2e6u6n6/sachin-khadka-ecr:success
             # Update ECS service
-            aws ecs update-service --cluster sachin-khadka-cluster --service sachin-khadka-reactjs-svc --force-new-deployment --region us-east-1
+            aws ecs update-service --cluster sachin-khadka-cluster --service  sachin-react-app-svc --force-new-deployment --region us-east-1
 workflows:
   version: 2
   deploy_ecs:
